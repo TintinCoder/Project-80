@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guest List </title>
+</head>
+<body>
+    <center>
+        <h1>Guest List</h1>
+        <div class="input">
+            <h1>Enter Guests Names</h1>
+            <input type="text" placeholder="Enter Guest Names" id="guestName">
+            <button id="add" onclick="show();">Add Guest Name</button>
+            <div id="names"></div>
+        </div>
+        <hr>
+        <div class="showGuests">
+            <h1>Guest Names</h1>
+            <button id="show" onclick="showList();">Show</button>
+            <div id="showLineBreak"></div>
+        </div>
+        <hr>
+        <div class="SortedGuests">
+            <h1>Sorted Guest Names</h1>
+            <button id="show" onclick="sorted();">Sort</button>
+            <div id="names-without-comma"></div>
+        </div>
+        <hr>
+        <div class="search">
+            <h1>Search</h1>
+            <input type="text" placeholder="Search Name" id="search">
+            <button id="search" onclick="search();">Search</button>
+            <div id="searchName"></div>
+        </div>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>

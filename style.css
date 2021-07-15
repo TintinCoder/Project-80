@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input{
+    /* border: 2px solid black; */
+    margin: 10px;
+    height: auto;
+    width: auto;
+    padding: 12px;
+}
+#add{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+#add, 
+#searchGuest{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.showGuests{
+    /* border: 2px solid black; */
+    margin: 10px;
+    height: auto;
+    width: auto;
+    padding: 12px;
+}
+#show{
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
